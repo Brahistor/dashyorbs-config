@@ -1,5 +1,6 @@
 {
-  "LB_URL": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
+  "LB_URL": 
+  "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
 
   "leaderboard": {
     "apiBaseUrl": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
