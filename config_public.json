@@ -1,4 +1,6 @@
 {
+  "LB_URL": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
+
   "leaderboard": {
     "apiBaseUrl": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
     "nonceEnabled": true,
@@ -8,26 +10,30 @@
       "weekly": "Africa/Casablanca"
     }
   },
+
   "app": {
     "languages": ["en", "fr", "es", "ar"],
     "moreAppsUrl": "https://yourdomain.com/more-apps",
     "rateAppUrl": "https://www.amazon.com/review/create-review?asin=YOUR_APP_ASIN"
   },
+
   "oneSignal": {
     "appId": "YOUR_ONESIGNAL_APP_ID"
   },
+
   "iap": {
-    "productIds": ["remove_ads"]
+    "productIds": ["remove_ads", "premium_upgrade"]
   },
+
   "ads": {
     "showAds": true,
     "clicksBeforeAd": 3,
     "mintegralAppId": "YOUR_MINTEGRAL_APP_ID",
     "mintegralAppKey": "YOUR_MINTEGRAL_APP_KEY",
     "placements": {
-      "banner": "YOUR_BANNER_ID",
-      "interstitial": "YOUR_INTERSTITIAL_ID",
-      "rewarded": "YOUR_REWARD_ID"
+      "banner": "YOUR_BANNER_PLACEMENT_ID",
+      "interstitial": "YOUR_INTERSTITIAL_PLACEMENT_ID",
+      "rewarded": "YOUR_REWARDED_PLACEMENT_ID"
     }
   }
 }
