@@ -3,12 +3,31 @@
     "apiBaseUrl": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
     "nonceEnabled": true,
     "topResults": 20,
-    "timezones": { "daily": "Africa/Casablanca", "weekly": "Africa/Casablanca" }
+    "timezones": {
+      "daily": "Africa/Casablanca",
+      "weekly": "Africa/Casablanca"
+    }
   },
   "app": {
     "languages": ["en", "fr", "es", "ar"],
     "moreAppsUrl": "https://yourdomain.com/more-apps",
     "rateAppUrl": "https://www.amazon.com/review/create-review?asin=YOUR_APP_ASIN"
+  },
+  "oneSignal": {
+    "appId": "YOUR_ONESIGNAL_APP_ID"
+  },
+  "iap": {
+    "productIds": ["remove_ads"]
+  },
+  "ads": {
+    "showAds": true,
+    "clicksBeforeAd": 3,
+    "mintegralAppId": "YOUR_MINTEGRAL_APP_ID",
+    "mintegralAppKey": "YOUR_MINTEGRAL_APP_KEY",
+    "placements": {
+      "banner": "YOUR_BANNER_ID",
+      "interstitial": "YOUR_INTERSTITIAL_ID",
+      "rewarded": "YOUR_REWARD_ID"
+    }
   }
 }
-
