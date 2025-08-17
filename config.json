@@ -1,1 +1,14 @@
-{ "oneSignal": { "appId": "YOUR_ONESIGNAL_APP_ID" } }
+{
+  "leaderboard": {
+    "apiBaseUrl": "https://dashyorbs-lb-worker-pro.bidar-ibra.workers.dev",
+    "nonceEnabled": true,
+    "topResults": 20,
+    "timezones": { "daily": "Africa/Casablanca", "weekly": "Africa/Casablanca" }
+  },
+  "app": {
+    "languages": ["en", "fr", "es", "ar"],
+    "moreAppsUrl": "https://yourdomain.com/more-apps",
+    "rateAppUrl": "https://www.amazon.com/review/create-review?asin=YOUR_APP_ASIN"
+  }
+}
+
